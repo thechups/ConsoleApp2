@@ -5,7 +5,7 @@
         static void Main(string[] args)
         {
             var fileName = "somefile.name";
-            var fileNameWithSuffix = fileName.AddSuffix("suffix");
+            var fileNameWithSuffix = fileName.AddSuffixToFileName("suffix");
         }
     }
 }
